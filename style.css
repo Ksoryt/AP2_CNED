@@ -1,0 +1,42 @@
+html {
+  background-image: linear-gradient(to top left , #efceff, #c497da);
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+  padding-left: 5%;
+}
+
+.padd-0 {
+    padding-top: 2%;
+}
+
+.padd-1 {
+    padding-top: 10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  background: #efceff;
+  border-color: #9f83dd;
+  padding: 12px;
+  margin: 10px;
+  transition: color 3s, linear 0.3s;
+  border-radius: 15px;
+  color: black;
+}
+
+a:hover {
+  background: #9f83dd;
+  border-color: #efceff;
+  color: #ffffff;
+  cursor: pointer;
+}
